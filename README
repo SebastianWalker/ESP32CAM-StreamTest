@@ -1,0 +1,11 @@
+# ESP32-CAM with MB Dev Board
+
+## platformio.ini parameters for propper serial communication on mac
+monitor_speed = 115200
+monitor_rts = 0
+monitor_dtr = 0
+
+## how to use MB?
+1. press io0 button 
+2. press RST on ESP Board (RST on MB wont work)
+3. compile and upload
